@@ -1,16 +1,23 @@
+size(300,300);
 
-void setup()
-{
-  size(200,100);
-}
-void draw()
-{
-  fill(255,255,0);
-  ellipse(100,50,80,80);
-  arc(100,50,60,60,PI/8,7*PI/8);
-  fill(0,0,0);
-  ellipse(85,40,10,15);
-  ellipse(115,40,10,15);
-}
+//white of the eye
+noStroke();
+ellipse(150,150,220,200);
+
+//iris
+fill(190,150,0);
+ellipse(150,150,100,100);
+
+// inner iris
+
+fill(210,175,0);
+ellipse(150,150,70,70);
 
 
+//pupil
+fill(0,0,0);
+ellipse(150,150,30,30);
+
+//highlight
+fill(255,255,255);
+ellipse(180,130,15,15);
